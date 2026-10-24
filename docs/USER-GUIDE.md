@@ -11,11 +11,13 @@ download each (see *Languages* below); that is the only time the app goes online
 
 ## 1. Install
 
-Download the file for your computer from the **Releases** page of the project on GitHub.
+Download the file for your computer: [Mac](https://github.com/bosti-hub/polarityprompt/releases/latest/download/PolarityPrompt-Mac.dmg)
+or [Windows](https://github.com/bosti-hub/polarityprompt/releases/latest/download/PolarityPrompt-Windows-Setup.exe)
+(all versions are on the [Releases page](https://github.com/bosti-hub/polarityprompt/releases)).
 
 ### macOS (Apple silicon: M1, M2, M3, M4, M5)
 
-1. Download `PolarityPrompt_<version>_aarch64.dmg` and open it.
+1. Download `PolarityPrompt-Mac.dmg` and open it. Click **Agree** for the license.
 2. Drag **PolarityPrompt** into **Applications**.
 3. First start only: the app is not signed with an Apple developer certificate, so macOS will
    refuse to open it with a double-click. Instead, **right-click the app → Open → Open**.
@@ -31,7 +33,7 @@ download.
 
 ### Windows 10 / 11 (64-bit)
 
-1. Download `PolarityPrompt_<version>_x64-setup.exe` and run it.
+1. Download `PolarityPrompt-Windows-Setup.exe` and run it.
 2. Windows SmartScreen may show "Windows protected your PC" because the installer is not
    signed with a certificate. Click **More info → Run anyway**.
 3. The installer places the app in your user folder; no administrator password is needed.

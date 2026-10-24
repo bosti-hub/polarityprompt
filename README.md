@@ -7,6 +7,18 @@ finds its place again when you skip ahead or improvise.
 **Everything runs on your own computer.** No account, no telemetry, and audio never leaves your
 machine. The only time the app goes online is when you download an extra language.
 
+## ⬇ Download
+
+| Your computer | Download |
+|---|---|
+| **Mac** with Apple silicon (M1 or newer), macOS 12+ | [**Download for Mac**](https://github.com/bosti-hub/polarityprompt/releases/latest/download/PolarityPrompt-Mac.dmg) |
+| **Windows** 10 or 11 (64-bit) | [**Download for Windows**](https://github.com/bosti-hub/polarityprompt/releases/latest/download/PolarityPrompt-Windows-Setup.exe) |
+
+Free, no account. The installers are not code-signed yet, so the first start needs one extra
+click: on a Mac **System Settings → Privacy & Security → Open Anyway**, on Windows
+**More info → Run anyway**. The [user guide](docs/USER-GUIDE.md#1-install) shows each step.
+All versions: [Releases page](https://github.com/bosti-hub/polarityprompt/releases).
+
 ## Features
 
 - Voice-locked scrolling, fully offline (Vosk speech recognition). **English** is included;
@@ -18,16 +30,6 @@ machine. The only time the app goes online is when you download an extra languag
   listened for, a countdown, reading timer and progress bar, keyboard shortcuts.
 - Manual and automatic cruise scrolling when you would rather not use your voice.
 - A built-in practice script in every language to try it in a minute.
-
-## Download
-
-Installers for **Windows 10/11 (64-bit)** and **macOS 12+ on Apple silicon** are on the
-[Releases page](https://github.com/bosti-hub/polarityprompt/releases). English speech
-recognition is inside the installer; other languages are a download inside the app.
-
-The installers are not code-signed yet. Windows may show a SmartScreen warning and macOS asks
-you to confirm the first start: [docs/USER-GUIDE.md](docs/USER-GUIDE.md) explains the one-time
-steps.
 
 ## Getting started
 
