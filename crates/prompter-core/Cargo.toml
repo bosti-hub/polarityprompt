@@ -1,0 +1,15 @@
+[package]
+name = "prompter-core"
+description = "Document model, anchors and scroll controller for PolarityPrompt. Depends on nothing internal."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[dependencies]
+pulldown-cmark = { version = "0.13", default-features = false, features = ["html"] }
+serde = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

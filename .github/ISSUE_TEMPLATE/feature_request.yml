@@ -1,0 +1,15 @@
+name: Idea or feature request
+description: Suggest something that would make PolarityPrompt more useful.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation (recording setup, kind of script) rather than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?

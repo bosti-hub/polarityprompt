@@ -1,0 +1,30 @@
+# Rust build output
+target/
+
+# Node
+node_modules/
+ui/dist/
+
+# Speech models and native libs are not committed (see CLAUDE.md)
+models/
+
+# Tauri build output
+apps/desktop/gen/schemas/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local release output (DMG)
+dist/
+
+# Personal test recordings for the replay tool (never committed)
+fixtures/
+
+# Private notes: tracked only in the private archive repository, kept locally (never
+# committed) in the public one. See CLAUDE.md.
+docs/DEVLOG.md
+docs/PUBLISHING.md

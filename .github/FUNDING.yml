@@ -1,0 +1,5 @@
+# Shows the "Sponsor" button on the repository page.
+# Active once GitHub Sponsors is set up for bosti-hub.
+github: bosti-hub
+# Mollie payment link for one-off donations via iDEAL, added once the link exists:
+# custom: ["https://..."]

@@ -1,0 +1,299 @@
+{
+  "path": "examples/demo-nl.md",
+  "title": "Oefentekst — een goede kop koffie",
+  "hash": 2776116861488520292,
+  "language": "nl",
+  "blocks": [
+    {
+      "id": 0,
+      "kind": "heading",
+      "level": 1,
+      "html": "Een goede kop koffie",
+      "plain": "Een goede kop koffie",
+      "word_count": 4
+    },
+    {
+      "id": 1,
+      "kind": "paragraph",
+      "html": "<span class=\"skip\">[Klik op Start listening en lees deze tekst hardop voor.]</span>",
+      "plain": "",
+      "word_count": 0
+    },
+    {
+      "id": 2,
+      "kind": "paragraph",
+      "html": "Welkom bij deze korte oefening. Lees hem hardop voor in je gewone tempo en kijk hoe de tekst\nje stem volgt. Als je stopt met praten, wacht de tekst op je. Zodra je verder gaat, loopt hij\nweer mee.",
+      "plain": "Welkom bij deze korte oefening. Lees hem hardop voor in je gewone tempo en kijk hoe de tekst je stem volgt. Als je stopt met praten, wacht de tekst op je. Zodra je verder gaat, loopt hij weer mee.",
+      "word_count": 39
+    },
+    {
+      "id": 3,
+      "kind": "heading",
+      "level": 2,
+      "html": "De bonen",
+      "plain": "De bonen",
+      "word_count": 2
+    },
+    {
+      "id": 4,
+      "kind": "paragraph",
+      "html": "Elke goede kop begint met verse bonen. Koffiebonen zijn de zaden van een rode vrucht die aan\nkleine struiken groeit in warme landen. Na de oogst worden de zaden gedroogd, gesorteerd en over\nde hele wereld verscheept.",
+      "plain": "Elke goede kop begint met verse bonen. Koffiebonen zijn de zaden van een rode vrucht die aan kleine struiken groeit in warme landen. Na de oogst worden de zaden gedroogd, gesorteerd en over de hele wereld verscheept.",
+      "word_count": 37
+    },
+    {
+      "id": 5,
+      "kind": "paragraph",
+      "html": "Bij het branden worden de groene zaden bruin en ontstaat de smaak. Een lichte branding smaakt\nfris en fruitig, een donkere branding smaakt bitter, zwaar en een beetje rokerig. Koop als het\nkan hele bonen en maal ze pas vlak voor het zetten.",
+      "plain": "Bij het branden worden de groene zaden bruin en ontstaat de smaak. Een lichte branding smaakt fris en fruitig, een donkere branding smaakt bitter, zwaar en een beetje rokerig. Koop als het kan hele bonen en maal ze pas vlak voor het zetten.",
+      "word_count": 43
+    },
+    {
+      "id": 6,
+      "kind": "heading",
+      "level": 2,
+      "html": "Zetten",
+      "plain": "Zetten",
+      "word_count": 1,
+      "bookmark": "Zetten"
+    },
+    {
+      "id": 7,
+      "kind": "paragraph",
+      "html": "Water is belangrijker dan de meeste mensen denken. Gebruik schoon water dat net niet kookt.\nWater dat te heet is verbrandt de koffie, en water dat te koud is maakt hem slap en zuur.",
+      "plain": "Water is belangrijker dan de meeste mensen denken. Gebruik schoon water dat net niet kookt. Water dat te heet is verbrandt de koffie, en water dat te koud is maakt hem slap en zuur.",
+      "word_count": 34
+    },
+    {
+      "id": 8,
+      "kind": "paragraph",
+      "html": "Neem voor een filter ongeveer een schepje gemalen koffie per kopje. Giet eerst een klein beetje\nwater op en laat het koffiedik een halve minuut zwellen. Schenk daarna de rest langzaam in\nrondjes en heb geduld terwijl het doorloopt.",
+      "plain": "Neem voor een filter ongeveer een schepje gemalen koffie per kopje. Giet eerst een klein beetje water op en laat het koffiedik een halve minuut zwellen. Schenk daarna de rest langzaam in rondjes en heb geduld terwijl het doorloopt.",
+      "word_count": 39
+    },
+    {
+      "id": 9,
+      "kind": "heading",
+      "level": 2,
+      "html": "Jouw beurt",
+      "plain": "Jouw beurt",
+      "word_count": 2
+    },
+    {
+      "id": 10,
+      "kind": "paragraph",
+      "html": "Het lijstje hieronder is een vrije zone. Vertel erover in je eigen woorden; de tekst blijft\nstaan tot je de volgende alinea begint te lezen.",
+      "plain": "Het lijstje hieronder is een vrije zone. Vertel erover in je eigen woorden; de tekst blijft staan tot je de volgende alinea begint te lezen.",
+      "word_count": 25
+    },
+    {
+      "id": 11,
+      "kind": "talking_points",
+      "html": "<ul>\n<li>hoe jij je koffie het liefst drinkt</li>\n<li>het leukste café waar je ooit bent geweest</li>\n<li>thee, chocolademelk of toch iets anders</li>\n</ul>",
+      "plain": "hoe jij je koffie het liefst drinkt het leukste café waar je ooit bent geweest thee, chocolademelk of toch iets anders",
+      "word_count": 21
+    },
+    {
+      "id": 12,
+      "kind": "heading",
+      "level": 2,
+      "html": "Genieten",
+      "plain": "Genieten",
+      "word_count": 1
+    },
+    {
+      "id": 13,
+      "kind": "paragraph",
+      "html": "<span class=\"skip\">[Pauze, kijk in de camera.]</span> Schenk de koffie in een warme mok en neem even de tijd voor de\neerste slok. Ruik het aroma, kijk naar de kleur en proef rustig. Melk en suiker mogen, maar\nprobeer hem minstens één keer zwart.",
+      "plain": "Schenk de koffie in een warme mok en neem even de tijd voor de eerste slok. Ruik het aroma, kijk naar de kleur en proef rustig. Melk en suiker mogen, maar probeer hem minstens één keer zwart.",
+      "word_count": 37
+    },
+    {
+      "id": 14,
+      "kind": "paragraph",
+      "html": "Dat was het einde van deze oefening. Druk op R om opnieuw bovenaan te beginnen, of open je\neigen script met \"Open script…\".",
+      "plain": "Dat was het einde van deze oefening. Druk op R om opnieuw bovenaan te beginnen, of open je eigen script met \"Open script…\".",
+      "word_count": 23
+    }
+  ],
+  "anchors": [
+    {
+      "id": 0,
+      "block": 2,
+      "ordinal": 0,
+      "keywords": [
+        "welkom",
+        "korte",
+        "lees",
+        "hardop"
+      ],
+      "positions": [
+        0.0,
+        0.07692308,
+        0.12820514,
+        0.17948718
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 1,
+      "block": 4,
+      "ordinal": 1,
+      "keywords": [
+        "verse",
+        "koffiebonen",
+        "rode",
+        "vrucht"
+      ],
+      "positions": [
+        0.13513513,
+        0.1891892,
+        0.35135135,
+        0.3783784
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 2,
+      "block": 5,
+      "ordinal": 2,
+      "keywords": [
+        "branden",
+        "groene",
+        "bruin",
+        "ontstaat"
+      ],
+      "positions": [
+        0.046511628,
+        0.11627907,
+        0.1627907,
+        0.20930232
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 3,
+      "block": 7,
+      "ordinal": 3,
+      "keywords": [
+        "belangrijker",
+        "meeste",
+        "denken",
+        "gebruik"
+      ],
+      "positions": [
+        0.05882353,
+        0.14705883,
+        0.20588236,
+        0.23529412
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 4,
+      "block": 8,
+      "ordinal": 4,
+      "keywords": [
+        "filter",
+        "ongeveer",
+        "schepje",
+        "gemalen"
+      ],
+      "positions": [
+        0.07692308,
+        0.102564104,
+        0.15384616,
+        0.17948718
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 5,
+      "block": 9,
+      "ordinal": 5,
+      "keywords": [
+        "beurt"
+      ],
+      "positions": [
+        0.5
+      ],
+      "min_hits": 1,
+      "explicit": false
+    },
+    {
+      "id": 6,
+      "block": 10,
+      "ordinal": 6,
+      "keywords": [
+        "lijstje",
+        "hieronder",
+        "vrije",
+        "zone"
+      ],
+      "positions": [
+        0.04,
+        0.08,
+        0.2,
+        0.24
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 7,
+      "block": 12,
+      "ordinal": 7,
+      "keywords": [
+        "genieten"
+      ],
+      "positions": [
+        0.0
+      ],
+      "min_hits": 1,
+      "explicit": false
+    },
+    {
+      "id": 8,
+      "block": 13,
+      "ordinal": 8,
+      "keywords": [
+        "tijd",
+        "slok",
+        "ruik",
+        "aroma"
+      ],
+      "positions": [
+        0.2972973,
+        0.4054054,
+        0.43243244,
+        0.4864865
+      ],
+      "min_hits": 2,
+      "explicit": false
+    },
+    {
+      "id": 9,
+      "block": 14,
+      "ordinal": 9,
+      "keywords": [
+        "einde",
+        "druk",
+        "opnieuw",
+        "bovenaan"
+      ],
+      "positions": [
+        0.13043478,
+        0.3043478,
+        0.47826087,
+        0.5217391
+      ],
+      "min_hits": 2,
+      "explicit": false
+    }
+  ]
+}

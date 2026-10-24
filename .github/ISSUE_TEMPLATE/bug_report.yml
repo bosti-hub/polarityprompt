@@ -1,0 +1,44 @@
+name: Bug report
+description: Something does not work as described.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PolarityPrompt version
+      description: Shown at the bottom of the side panel.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple silicon)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Script language
+      options:
+        - Dutch
+        - English
+        - Not relevant
+  - type: textarea
+    id: script
+    attributes:
+      label: Script excerpt (optional)
+      description: A few lines of the script where it goes wrong help a lot. Leave out anything private.
+      render: markdown

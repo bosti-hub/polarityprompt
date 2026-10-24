@@ -1,0 +1,11 @@
+# Text files are stored with LF. Shell scripts keep LF in every checkout (bash on
+# Windows and macOS); PowerShell scripts get CRLF, which Windows PowerShell expects.
+* text=auto
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+*.png binary
+*.ico binary
+*.icns binary
+*.m4a binary
+*.wav binary

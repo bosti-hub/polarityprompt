@@ -1,0 +1,22 @@
+{
+  "bundle": {
+    "targets": [
+      "app",
+      "dmg"
+    ],
+    "resources": {
+      "../../models/vosk-model-small-en-us-0.15": "models/vosk-en",
+      "../../LICENSE": "LICENSE.txt",
+      "../../THIRD-PARTY-NOTICES.txt": "THIRD-PARTY-NOTICES.txt"
+    },
+    "macOS": {
+      "frameworks": [
+        "../../models/libvosk/libvosk.dylib"
+      ],
+      "signingIdentity": "-",
+      "minimumSystemVersion": "12.0",
+      "entitlements": "Entitlements.plist",
+      "hardenedRuntime": false
+    }
+  }
+}

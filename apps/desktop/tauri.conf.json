@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "PolarityPrompt",
+  "version": "0.1.0",
+  "identifier": "nl.polarityprompt.desktop",
+  "build": {
+    "frontendDist": "../../ui/dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": {
+      "script": "npm run dev",
+      "cwd": "../../ui"
+    },
+    "beforeBuildCommand": {
+      "script": "npm run build",
+      "cwd": "../../ui"
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "operator",
+        "title": "PolarityPrompt",
+        "url": "index.html?role=operator",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 500
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "shortDescription": "Local teleprompter that follows your voice",
+    "longDescription": "PolarityPrompt reads Markdown scripts, shows them large and mirrorable, and scrolls to where you are by listening to your voice. Everything runs on your computer; no audio ever leaves it.",
+    "category": "Productivity",
+    "copyright": "\u00a9 2026 F. Bos - OnPolarity.com",
+    "license": "GPL-3.0-or-later",
+    "licenseFile": "../../LICENSE"
+  }
+}

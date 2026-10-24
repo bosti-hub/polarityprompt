@@ -1,0 +1,23 @@
+[package]
+name = "polarityprompt"
+description = "PolarityPrompt desktop host (Tauri). Windows, menus, dialogs and IPC commands. Plumbing only."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+name = "polarityprompt_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+prompter-core = { workspace = true }
+prompter-speech = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"

@@ -1,0 +1,41 @@
+# Runs the tests and lint on every push, on macOS (the primary platform) and Windows.
+name: Check
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  check:
+    name: Check (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-14, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ui/package-lock.json
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+      - name: Fetch speech models and libvosk
+        shell: bash
+        run: bash scripts/fetch-models.sh
+      - name: Rust tests and lint
+        shell: bash
+        run: |
+          cargo test --workspace
+          cargo clippy --workspace --all-targets -- -D warnings
+      - name: UI typecheck and lint
+        shell: bash
+        run: |
+          npm ci --prefix ui
+          npm run --prefix ui typecheck
+          npm run --prefix ui lint
