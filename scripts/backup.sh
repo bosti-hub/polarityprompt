@@ -10,18 +10,20 @@ STAMP="$(date +%Y-%m-%d_%H%M)"
 mkdir -p "$DEST_ROOT/latest" "$DEST_ROOT/snapshots"
 
 # Neither step reads files that are already in OneDrive: with Files On-Demand those can be
-# cloud-only placeholders, and reading one waits for a download (rsync: "mmap: Operation
-# timed out").
+# cloud-only placeholders, and reading one waits for a download (macOS rsync: "mmap: Operation
+# timed out"). So the mirror is written into a fresh folder and then swapped in.
 
-# 1. Mirror: always the current state of the source. --whole-file copies changed files
-#    instead of comparing them with the old copy.
-rsync -a --delete --whole-file \
+# 1. Mirror: always the current state of the source.
+rm -rf "$DEST_ROOT/latest.new"
+rsync -a \
   --exclude 'target/' \
   --exclude 'node_modules/' \
   --exclude 'models/' \
   --exclude 'dist/' \
   --exclude '.DS_Store' \
-  "$REPO_ROOT/" "$DEST_ROOT/latest/"
+  "$REPO_ROOT/" "$DEST_ROOT/latest.new/"
+rm -rf "$DEST_ROOT/latest"
+mv "$DEST_ROOT/latest.new" "$DEST_ROOT/latest"
 
 # 2. Dated snapshot: a zip of the source (same exclusions), so an accidental bad state can be
 #    rolled back by date.
