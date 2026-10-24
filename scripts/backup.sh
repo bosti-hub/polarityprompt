@@ -9,8 +9,13 @@ STAMP="$(date +%Y-%m-%d_%H%M)"
 
 mkdir -p "$DEST_ROOT/latest" "$DEST_ROOT/snapshots"
 
-# 1. Mirror: always the current state of the source.
-rsync -a --delete \
+# Neither step reads files that are already in OneDrive: with Files On-Demand those can be
+# cloud-only placeholders, and reading one waits for a download (rsync: "mmap: Operation
+# timed out").
+
+# 1. Mirror: always the current state of the source. --whole-file copies changed files
+#    instead of comparing them with the old copy.
+rsync -a --delete --whole-file \
   --exclude 'target/' \
   --exclude 'node_modules/' \
   --exclude 'models/' \
@@ -18,8 +23,11 @@ rsync -a --delete \
   --exclude '.DS_Store' \
   "$REPO_ROOT/" "$DEST_ROOT/latest/"
 
-# 2. Dated snapshot: a zip of the mirror, so an accidental bad state can be rolled back by date.
-( cd "$DEST_ROOT/latest" && zip -qr "$DEST_ROOT/snapshots/polarityprompt-$STAMP.zip" . )
+# 2. Dated snapshot: a zip of the source (same exclusions), so an accidental bad state can be
+#    rolled back by date.
+( cd "$REPO_ROOT" && zip -qr "$DEST_ROOT/snapshots/polarityprompt-$STAMP.zip" . \
+    -x 'target/*' '*/target/*' 'node_modules/*' '*/node_modules/*' 'models/*' \
+       'dist/*' '*/dist/*' '*.DS_Store' )
 
 # 3. Keep the last 14 snapshots.
 ls -1t "$DEST_ROOT/snapshots"/polarityprompt-*.zip 2>/dev/null | tail -n +15 | xargs -I{} rm -f "{}"
